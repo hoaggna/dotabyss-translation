@@ -46,7 +46,7 @@ def find_best_word_split(words: list, target_char_pos: int) -> int:
             
     return best_word_idx + 1
 
-def rebalance_br(text: str, max_lines: int = 3, target_line_len: int = 55) -> str:
+def rebalance_br(text: str, max_lines: int = 2, target_line_len: int = 55) -> str:
     if not isinstance(text, str) or not text.strip():
         return text
     
@@ -56,13 +56,11 @@ def rebalance_br(text: str, max_lines: int = 3, target_line_len: int = 55) -> st
     
     total_len = len(clean)
     
-    # 2. Determine target line count (Max 3 lines = Max 2 <br>)
+    # 2. Determine target line count (Max 2 lines = Max 1 <br>)
     if total_len <= target_line_len:
         num_lines = 1
-    elif total_len <= target_line_len * 2:
-        num_lines = 2
     else:
-        num_lines = min(3, max_lines)
+        num_lines = min(2, max_lines)
         
     if num_lines == 1:
         return clean

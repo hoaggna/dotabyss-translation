@@ -76,7 +76,7 @@ def main():
         new_data = {}
         for k, v in data.items():
             fixed_v = fix_user_tag(k, v)
-            final_v = rebalance_br(fixed_v, max_lines=3, target_line_len=55)
+            final_v = rebalance_br(fixed_v, max_lines=2, target_line_len=55)
             
             if final_v != v:
                 file_changed = True
