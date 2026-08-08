@@ -2,11 +2,14 @@
 Download asset bundles from the CDN into bundles_cache/.
 
 Usage:
-    python tools/download_bundles.py --list [--match SUBSTR]
-    python tools/download_bundles.py --match SUBSTR [--match SUBSTR2]
-    python tools/download_bundles.py --all
+    python tools_en/download_bundles.py --list [--match SUBSTR]
+    python tools_en/download_bundles.py --match SUBSTR [--match SUBSTR2]
+    python tools_en/download_bundles.py --all
 
-Already-downloaded files are skipped.
+Already-downloaded bundles are skipped (filename contains a content hash,
+so an updated asset gets a new name and is re-fetched). The catalog itself is
+always re-downloaded, since a cached one from an older CDN_VERSION lists
+bundles that now 404.
 """
 
 import argparse
@@ -15,12 +18,10 @@ import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import bundle_common as bc
+import common
 
 CATALOG_NAME = "catalog_1.bin"
-SRC_CATALOG = os.path.join(bc.BUNDLES_CACHE, CATALOG_NAME)
-
+SRC_CATALOG = os.path.join(common.BUNDLES_CACHE, CATALOG_NAME)
 
 def main():
     parser = argparse.ArgumentParser(description="Download bundles listed in the catalog.")
@@ -32,7 +33,7 @@ def main():
     args = parser.parse_args()
 
     catalog = ensure_catalog()
-    names = bc.list_catalog_bundles(catalog)
+    names = common.list_catalog_bundles(catalog)
 
     if args.match:
         names = [n for n in names if any(m in n for m in args.match)]
@@ -64,19 +65,25 @@ def main():
 
 
 def ensure_catalog():
-    os.makedirs(bc.BUNDLES_CACHE, exist_ok=True)
-    if not os.path.exists(SRC_CATALOG):
-        print(f"Fetching catalog: {bc.CATALOG_URL}")
-        urllib.request.urlretrieve(bc.CATALOG_URL, SRC_CATALOG)
+    """Always re-fetch, so the catalog can never lag behind common.CDN_VERSION."""
+    os.makedirs(common.BUNDLES_CACHE, exist_ok=True)
+    print(f"Fetching catalog: {common.CATALOG_URL}")
+    tmp = SRC_CATALOG + ".tmp"
+    # Download to a temp file first: a failed fetch must not leave a truncated
+    # catalog behind, since every later run would silently trust it.
+    urllib.request.urlretrieve(common.CATALOG_URL, tmp)
+    os.replace(tmp, SRC_CATALOG)
     return open(SRC_CATALOG, "rb").read()
 
 
 def fetch(filename):
-    dest = os.path.join(bc.BUNDLES_CACHE, filename)
+    """Download one bundle. Returns (filename, size, err)."""
+    dest = os.path.join(common.BUNDLES_CACHE, filename)
     if os.path.exists(dest):
         return filename, os.path.getsize(dest), "cached"
     try:
-        req = urllib.request.Request(bc.bundle_url(filename), headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(common.bundle_url(filename),
+                                     headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=60) as r:
             data = r.read()
         with open(dest, "wb") as fh:
