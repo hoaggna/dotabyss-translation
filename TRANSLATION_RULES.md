@@ -44,7 +44,7 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
 ### A. Thuật ngữ & Bộ phận
 * `gà trống` / `con gà trống` / `cặc` / `dương vật` → **thanh thịt** *(Chuẩn văn phong sắc hiệp/H-scene)*.
 * `vú` → **ngực**.
-* `đôi môi riêng tư` / `đôi môi bí mật` → **môi bé**.
+* `đôi môi riêng tư` / `đôi môi bí mật` → **môi dưới**.
 * `chỗ đó` → **nơi thầm kín**.
 * `thành âm đạo` → **lòng âm đạo**.
 * `từ Suzuguchi` / `lỗ sáo Suzuguchi` → **lỗ sáo**.
@@ -64,7 +64,7 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
 
 ### C. Hiệu chỉnh câu thoại thô cứng
 * `quan hệ tình dục` / `hành vi tình dục` → **làm chuyện ấy** / **màn làm tình** / **chuyện mây mưa**.
-* `công việc thủ công` → **màn quay tay sục cu**.
+* `công việc thủ công` → **tự sướng**.
 * `phần chèn` / `chèn` → **màn đút vào** / **đút vào**.
 * `sửa chữa cơ thể` → **cố định thân thể**.
 * `làm Elektra hài lòng` → **làm cho Electra thăng hoa / sướng mê mệt**.
