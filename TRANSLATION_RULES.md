@@ -29,7 +29,6 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
   * `旦那様` → **Chủ nhân** *(Bỏ toàn bộ cụm "Chủ nhân điện hạ" thành "Chủ nhân")*.
   * `司令官` → **Tư lệnh** hoặc **anh Tư lệnh** *(Bỏ từ "Chỉ huy")*.
   * `私` / `ボク` → **Em** / **tôi** / **tại hạ** *(Tùy nhân vật)*.
-  * `Onii-san` / `Onii-sama` → **Anh trai** / **Anh traiii~**.
 * **Tránh từ xưng hô máy móc**:
   * Tránh dùng từ `bạn` thô cứng giữa nam - nữ trong thoại: `bạn và tôi` → `anh và em`, `của bạn` → `của anh` / `của em`.
   * `khách hàng` → **vị khách** / **quý khách** *(trong bối cảnh phục vụ/kỹ viện)*.
@@ -42,10 +41,10 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
 ## 3. Quy Tắc Dịch H-Scene (Cảnh 18+ / Sắc Hiệp / Dâm Văn)
 
 ### A. Thuật ngữ & Bộ phận
-* `gà trống` / `con gà trống` / `cặc` / `dương vật` → **thanh thịt** *(Chuẩn văn phong sắc hiệp/H-scene)*.
+* `gà trống` / `con gà trống` / `cặc` / `thanh thịt` → **dương vật** *(Chuẩn văn phong sắc hiệp/H-scene)*.
 * `vú` → **ngực**.
 * `đôi môi riêng tư` / `đôi môi bí mật` → **môi dưới**.
-* `chỗ đó` → **nơi thầm kín**.
+* `chỗ đó` → **chỗ đó**.
 * `thành âm đạo` → **lòng âm đạo**.
 * `từ Suzuguchi` / `lỗ sáo Suzuguchi` → **lỗ sáo**.
 * `con tinh trùng` / `chất tinh dịch` → **tinh dịch** / **dòng tinh dịch**.
