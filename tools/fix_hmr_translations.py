@@ -72,10 +72,17 @@ def fix_translation(ja: str, vi: str) -> tuple[str, list[str]]:
     orig_vi = vi
     reasons: list[str] = []
 
-    # 1. Thẻ HTML bị hỏng
+    # 1. Thẻ HTML bị hỏng & xử lý thẻ <br> thừa ở đầu/cuối
+    prev = vi
     if "<<br>br>" in vi or "<br/>" in vi or "<br />" in vi:
         vi = re.sub(r"<<br>br>", "<br>", vi)
         vi = re.sub(r"<br\s*/>", "<br>", vi)
+    # Xóa <br> thừa ở đầu và cuối chuỗi (tránh tạo dòng trống thứ 3 làm tràn khung)
+    vi = re.sub(r"^(?:\s*<br\s*/?>)+", "", vi)
+    vi = re.sub(r"(?:<br\s*/?>\s*)+$", "", vi)
+    # Gộp nhiều thẻ <br> liên tiếp thành 1 thẻ
+    vi = re.sub(r"(?:<br\s*/?>\s*){2,}", "<br>", vi)
+    if vi != prev:
         reasons.append("html_tag_fix")
 
     # 2. Các câu thoại đặc biệt hoặc câu raw Japanese còn sót lại

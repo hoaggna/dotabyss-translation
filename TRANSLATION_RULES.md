@@ -10,8 +10,12 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
 * **Lời thoại vs Suy nghĩ nội tâm**: 
   * Lời thoại trong ngoặc `（）` của tiếng Nhật là suy nghĩ nội tâm của nhân vật.
   * Giữ nguyên trong ngoặc đơn `()` trong bản dịch tiếng Việt.
-* **Thẻ HTML `<br>`**: 
-  * Sử dụng tool để tự setup `<br>` trong folder tools
+* **Độ rộng khung thoại & Thẻ HTML `<br>` (Text Width & Line Break)**: 
+  * **Giới hạn chiều dài dòng**: Mỗi dòng có thể dài **lên đến 70 ký tự/dòng**.
+  * **Số dòng tối đa / 1 hộp thoại**: **Tối đa 1 thẻ `<br>`** (tương đương **tối đa 2 dòng văn bản**) trên 1 hộp thoại.
+  * **Ngắt dòng cân đối**: Ngắt dòng `<br>` tại các dấu câu (`,`, `.`, `――`, `...`) hoặc ranh giới cụm từ/vế câu có nghĩa, tránh ngắt đôi từ ghép.
+  * **Dịch cô đọng (Conciseness)**: Cắt bỏ các từ đệm rườm rà (`thì là mà`, `một cách rất`), ưu tiên từ Hán-Việt ngắn gọn, súc tích.
+  * Sử dụng tool để tự setup `<br>` trong folder tools.
 * **Ký tự đặc biệt & Thán từ**:
   * Giữ nguyên các ký tự cảm xúc: `♡`, `～`, `♪`, `……`, `！？`, `――`.
   * **Giới hạn lặp ký tự**: Tránh lặp ký tự tràn lan. Tối đa: dấu chấm `...`, chấm cảm `!`, chấm hỏi `?`, sóng `~~~~`.
