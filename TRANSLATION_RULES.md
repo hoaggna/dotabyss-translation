@@ -70,5 +70,5 @@ Tài liệu tóm tắt toàn bộ quy tắc dịch thuật, hiệu chỉnh văn 
 * `công việc thủ công` → **tự sướng**.
 * `phần chèn` / `chèn` → **màn đút vào** / **đút vào**.
 * `sửa chữa cơ thể` → **cố định thân thể**.
-* `làm Elektra hài lòng` → **làm cho Electra thăng hoa / sướng mê mệt**.
+* `làm Electra hài lòng` → **làm cho Electra thăng hoa / sướng mê mệt**.
 * `Big Slut Plug-in` → **『Plug-in Dâm Nữ Cực Phẩm』**.
