@@ -1,6 +1,6 @@
 # Dialogue lines overflowing the box
 
-709 line(s). The second line of the dialogue box is wider than the 1530-unit budget, usually because the translation is longer than the Japanese or contains an unbreakable word.
+718 line(s). The second line of the dialogue box is wider than the 1530-unit budget, usually because the translation is longer than the Japanese or contains an unbreakable word.
 
 -  [evs_10200010101:ああ、今日の功労者は間違いなくウェンディだな。<] line 2 overflows by 13%: 'apart and flinging them away, over and over—now that was some serious power!'
 -  [evs_10200010101:なるほど。生まれた日を祝ってあげるんですね……。] line 2 overflows by 12%: 'birthdays—you hold parties on other special days to make that person happy...'
@@ -105,6 +105,11 @@
 -  [hmn_10210100003:相手はあの瓦１００枚割り、水の精霊の加護があるヒ] line 2 overflows by 31%: "water spirit's blessing, right? No offense to the Commander, but there's no way he can win."
 -  [hmn_10210100003:……しかしここまで災厄とやりあってきた、あの司令] line 2 overflows by 29%: "before. Even against the water spirit's power, I don't think he'd get beaten without a plan."
 -  [hmn_10210100003:……ウパちゃんに力がないって分かってから、<br] line 2 overflows by 15%: "been looking at her like she's something to eat. That's a bit of a problem. Ahaha."
+-  [hmn_10220100002:はい。下着も全部です。すぐに乾いている予備と着替] line 2 overflows by 10%: 'away. In the mountains, wet clothing is the greatest danger, it can be deadly.'
+-  [hmn_10220100002:（雪と寒さでみんな気持ちがすり減っていたが、だい] line 2 overflows by 14%: "well. Yuuri's calm, gentle voice seems to soothe and ease their troubled hearts.)"
+-  [hmn_10220100003:テントから出ると、昨夜の吹雪が嘘のように止み、雲] line 2 overflows by 5%: 'trace. Sunlight through the clouds bathed the endless fresh snow in gold.'
+-  [hmn_10220100003:<ruby=せっぴ>雪庇</>と言って、崖の上に] line 2 overflows by 11%: "edge. If you break through it, there's nothing below. You'd fall straight down."
+-  [hmn_10220100003:凄まじい風切り音と共に、女兵士の体が雪の中から強] line 2 overflows by 9%: 'snow. It was truly "one-man fishing", courtesy of Yuuri\'s incredible strength.'
 -  [hmn_10240100001:何度も何度も言葉を交わしながら、共に笑い、共に泣] line 2 overflows by 4%: "our worries... and eventually, me and Magnolia's old man became buddies."
 -  [hmn_10250100003:ウェンディは大剣を振るい、工房の壁を破壊した。<] line 2 overflows by 8%: 'massive hole burst open, and the flames surged outward, carried by the air.'
 -  [hmn_10260100001:気を遣ってほしかったら、まずは迷惑行為を止めろ。] line 2 overflows by 9%: 'The dormitory has become freezing, and everyone is suffering because of it.'
@@ -343,6 +348,9 @@
 -  [hmr_10210100032:甲高い声を上げながらも触手の欲望を受け止めてみせ] line 2 overflows by 3%: 'loving devotion made them throb and writhe with even greater intensity.'
 -  [hmr_10210100032:うねりを上げて襲いかかってきた今日一番の絶頂に、] line 2 overflows by 7%: 'waves. The tentacles climaxed too, spewing white cloudy fluid from all tips.'
 -  [hmr_10210100032:全部出し切らないと、司令官君は元に戻れないもんね] line 2 overflows by 3%: "right...? *pant* Ah! Don't worry about me, take me as much as you need?"
+-  [hmr_10220100021:登山についてなら、わたしは詳しいですよ。なにせ、] line 2 overflows by 10%: "mountains, and I've even joined the Millesgard Knights for mountain training!"
+-  [hmr_10220100021:うーん、荷物は詰めかたや背負いかたで、疲労がまっ] line 2 overflows by 13%: "fatigue. With the gear you mentioned, it'd probably weigh about as much as me."
+-  [hmr_10220100033:窓の外から差し込む柔らかな朝の光が、寝室を白く染] line 2 overflows by 14%: "white. The room feels calm and fresh, as if last night's passion never happened."
 -  [hmr_10240100012:１度イッたせいか、マニョリアの反応はさっきより激] line 2 overflows by 14%: 'more intense than before. Her sensitivity might have increased after her climax.'
 -  [hmr_10240100022:要領を掴んだのか、マニョリアの行為はだんだんスム] line 2 overflows by 2%: 'cock deep into her mouth and rubbing it against the back of her throat.'
 -  [hmr_10250100013:さらに、特殊魔導炉を起動させることにより、わたし] line 2 overflows by 6%: 'furnace allows me to provide special pleasure for both me and my partner.'
@@ -365,7 +373,7 @@
 -  [hmr_10290100022:ミルティーユは何も拒むことなく、やわらかくすべて] line 2 overflows by 5%: 'desperately servicing with her still-inexperienced breasts, smiling warmly.'
 -  [hmr_10290100032:淫らな声を上げてミルティーユが乱れる姿に息が詰ま] line 2 overflows by 2%: "breathlessly. Overcome by this mysterious arousal, I couldn't hold back."
 -  [hmr_10310100022:ハツネは客に無理を言って楽しんでいた。<br>そ] line 2 overflows by 7%: "he muttered about her heartlessness, he couldn't help moaning in pleasure."
--  [hmr_10310100031:訓練所を覗くと、コトネが若殿を熱心に剣術を指導し] line 2 overflows by 18%: 'teaching the young lord swordsmanship. Hatsune was watching with rapt attention.'
+-  [hmr_10310100031:訓練所を覗くと、コトノが若殿を熱心に剣術を指導し] line 2 overflows by 18%: 'teaching the young lord swordsmanship. Hatsune was watching with rapt attention.'
 -  [hmr_10310100032:発情で理性が薄れていたはずなのに、急に恥じらった] line 2 overflows by 6%: "away in shame. Perhaps that's how self-conscious she was about her body."
 -  [hmr_10310100032:激しい抽送で真空のようになった膣内の刺激に陰茎が] line 2 overflows by 12%: "caused by the rough thrusting. Still, Hatsune's movements remained relentless."
 -  [hmr_10310100032:鍛えられた太ももが躍動するのが下からよく見えた。] line 2 overflows by 22%: 'movement, her pussy clenched, my cock swelled, and the pleasure built toward climax.'
@@ -603,6 +611,7 @@
 -  [hmr_10770100032:快感を引き出そうとするように、先ほどより速いテン] line 2 overflows by 25%: 'hot-spring-heated skin rubbed together, sending pleasure crashing from inside and out.'
 -  [hmr_10770100032:すごく気持ちいい――と、素直な感想を忖度なく伝え] line 2 overflows by 4%: 'Wrapped in a wave of heat, I felt my sanity consumed along with my body.'
 -  [hmr_10770100032:快楽に突き動かされるようにメリッサの腰の動きが速] line 2 overflows by 7%: 'hot-spring-wet skin rubbing fiercely together, setting a passionate rhythm.'
+-  [hmr_11000100022:柔らかく、それでありながらしっかりと締まる太腿の] line 2 overflows by 9%: 'intense,\nsending a powerful wave of pleasure through the man. As a result—'
 -  [hmr_11090100012:なおも膣内で脈動する男根と女性器の間から<br>] line 2 overflows by 4%: 'juices spilled from where we were joined, dripping down to stain us both.'
 -  [hmr_11090100022:ローションを塗ってテカテカにして擦りつけると<b] line 2 overflows by 3%: "everyone says they're fluffier and feel better than expected, you know?"
 -  [hmr_11090100022:ニナの甘い囁きが男の鼓膜を刺激する。<br>その] line 2 overflows by 5%: 'through his very brain—the finishing stroke for a man already at his limit.'
