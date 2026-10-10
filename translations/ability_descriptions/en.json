@@ -1,6 +1,6 @@
 {
     "自身の前方範囲内にいる敵全体に【1HIT / 合計{[n1]}】ダメージ / 自身に<color=#6B8CFF>紋章：衝撃</color>を【2】付与": "Deal [1 Hit / Total {[n1]}] damage to all enemies within area in front of self / Grant <color=#6B8CFF>Crest: Impact</color> [2] to self",
-    "<color=#6B8CFF>紋章：衝撃</color>を5消費し、ダメージ倍率が【{[n1]}】に変化": "Consume 5 <color=#6B8CFF>Crest: Impact</color> and change damage multiplier to [{[n1]}]",
+    "<color=#6B8CFF>紋章：衝撃</color>を5消費し、ダメージ倍率が【{[n1]}】に変化": "Consumes 5 <color=#6B8CFF>Crest: Impact</color> and changes Damage Multiplier to [{[n1]}]",
     "HPが最も低い味方を中心とした範囲内にいる味方全体に自身の最大HP【{[n1]}】分の回復": "Heal all allies within range centered on ally with lowest HP by [{[n1]}] of own Max HP",
     "さらに自身に<color=#FF5050>紋章：情熱</color>を【3】付与 / <color=#FF5050>紋章：情熱</color>が5以上のとき、対象に自身の最大HP【{[n1]}】分のバリア【15秒】を付与": "Additionally grant <color=#FF5050>Crest: Zeal</color> [3] to self / When <color=#FF5050>Crest: Zeal</color> is 5 or more, grant Barrier [15 seconds] to target by [{[n1]}] of own Max HP",
     "最も近い敵を中心とした範囲内にいる敵全体に【1HIT / 合計{[n1]}】ダメージ": "Deal [1 Hit / Total {[n1]}] damage to all enemies within range centered on nearest enemy",
@@ -639,5 +639,24 @@
     "【発動条件】通常攻撃を2回行う\n【効果】次回の通常攻撃が【1HIT / {[n1]}】ダメージ / 魅了【{[n2]}秒 / 成功率:30%】 / 自身に<color=#6B8CFF>紋章：衝撃</color>を【1】付与に変化": "[Trigger] Use normal attack 2 times\n[Effect] Changes the next normal attack to deal [1 hit / {[n1]}] damage / Applies Charm [{[n2]} seconds / success rate: 30%] / Applies <color=#6B8CFF>Crest: Impact</color> [1] to self",
     "最も遠い敵を狙う / 攻撃範囲が【100%】上昇 / 自身が付与する状態異常の確率が【{[n1]}】上昇 /  自身の攻撃力が【{[n2]}】上昇": "Targets the farthest enemy / Attack range increases by [100%] / The chance of status ailments applied by self increases by [{[n1]}] / Self ATK increases by [{[n2]}]",
     "<color=#6B8CFF>紋章：衝撃</color>キャラの攻撃力、防御力、最大HPが【{[n1]}】上昇": "Increase <color=#6B8CFF>Crest: Impact</color> characters' ATK, DEF, and Max HP by [<color=#4CF37B>{[n1]}</color>]",
-    "紋章：衝撃キャラの攻撃力、防御力、最大HPが【{{[n1]}}】上昇": "Increase Crest: Impact characters' ATK, DEF, and Max HP by [{[n1]}]"
+    "紋章：衝撃キャラの攻撃力、防御力、最大HPが【{{[n1]}}】上昇": "Increase Crest: Impact characters' ATK, DEF, and Max HP by [{[n1]}]",
+    "【発動条件】通常回復を3回行う\n【効果】次回の通常回復が対象を中心とした範囲内にいる味方全体に通常回復の【{[n1]}】回復 / 対象に防御力UP【{[n2]} / 10秒】を付与 / 自身に<color=#FF5050>紋章：情熱</color>を【2】付与に変化": "[Trigger] Perform normal healing 3 times\n[Effect] Changes the next normal healing to heal all allies in an area centered on the target for [{[n1]}] of normal healing / Applies DEF Up [{[n2]} / 10 seconds] to the target / Changes applying <color=#FF5050>Crest: Zeal</color> [2] to self",
+    "アカデミーの秀才": "Academy Prodigy",
+    "<color=#FF5050>紋章：情熱</color>が10以上になったとき、火・水・土属性の味方全体に攻撃力UP【{[n1]} / 永続】と防御力UP【{[n2]} / 永続】を付与（クエスト中1回まで）": "When <color=#FF5050>Crest: Zeal</color> reaches 10 or higher, applies ATK Up [{[n1]} / Permanent] and DEF Up [{[n2]} / Permanent] to all Fire, Water, and Soil element allies (once per quest)",
+    "研究者気質": "<cspace=-0.05em><size=90%>Researcher's Temperament",
+    "自身が回復を行ったとき、【50%】の確率で対象に攻撃力UP【{[n1]} / 10秒】を付与": "When self heals, has a [50%] chance to apply ATK Up [{[n1]} / 10 seconds] to the target",
+    "ミレスガルド薬学会の秘蔵っ子": "<cspace=-0.1em><line-height=40%>The Millesgard Pharmaceutical Society's Secret Weapon",
+    "神樹の目覚め": "Awakening of the Divine Tree",
+    "攻撃力が最も高い味方フロント・バック1体に通常回復の【50%】回復 / 対象のスキルを【{[n1]}】チャージ / 攻撃力UP【{[n2]} / 20秒】を付与": "Heals the front or back row ally with the highest ATK for [50%] of normal healing / Charges the target's skill by [{[n1]}] / Applies ATK Up [{[n2]} / 20 seconds]",
+    "対象にスキルチャージ効率UP【{[n1]} / 20秒】を付与 / <color=#FF5050>紋章：情熱</color>が5以上のとき、 スキル与ダメージUP【{[n2]} / 20秒】を付与": "Applies Skill Charge Efficiency Up [{[n1]} / 20 seconds] to the target / When <color=#FF5050>Crest: Zeal</color> is 5 or higher, applies Skill Damage Dealt Up [{[n2]} / 20 seconds]",
+    "研究成果": "Research Results",
+    "自身の最大HPが【{[n1]}】上昇 / 敵を倒したとき、自身に<color=#6B8CFF>紋章：衝撃</color>を【1】付与 / 【30%】の確率で自身に最大HP【5%】分の回復": "Increases self Max HP by [{[n1]}] / When defeating an enemy, applies <color=#6B8CFF>Crest: Impact</color> [1] to self / Has a [30%] chance to heal self for [5%] of Max HP",
+    "天才マッドマシーナリー": "Genius Mad Machinist",
+    "ビックチェーン": "Big Chain",
+    "自身の前方範囲内にいる敵全体に【1HIT / 合計{[n1]}】ダメージ / 光・闇・無属性の味方全体に会心ダメージ倍率UP【{[n2]} / 20秒】と会心率UP【{[n3]} / 20秒】を付与": "Deals [1 hit / {[n1]} total] damage to all enemies in a frontal area / Applies Critical Damage Multiplier Up [{[n2]} / 20 seconds] and Critical Rate Up [{[n3]} / 20 seconds] to all Light-, Dark-, and Neutral-element allies",
+    "パワーチャージ": "Power Charge",
+    "【発動条件】通常攻撃を2回行う\n【効果】次回の通常攻撃が自身の前方範囲内にいる敵全体に【3HIT / 合計{[n1]}】ダメージ / 光・闇・無属性の味方フロント・バック全体のスキルを【{[n2]}】チャージに変化": "[Trigger] Use normal attack 2 times\n[Effect] Changes the next normal attack to deal [3 hits / {[n1]} total] damage to all enemies in a frontal area / Charges the skills of all Light-, Dark-, and Neutral-element allies in both rows by [{[n2]}]",
+    "スペシャルフォース": "Special Force",
+    "トリニティバイタリティ": "Trinity Vitality",
+    "光・闇・無属性の味方全体の最大HPが【{[n1]}】上昇": "Increases Max HP of all Light, Dark, and None element allies by [{[n1]}]"
 }
